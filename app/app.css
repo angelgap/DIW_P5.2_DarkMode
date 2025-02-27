@@ -1,2 +1,28 @@
 @import "tailwindcss";
 
+@theme{
+    --color-card-bg-light: #ebf3fe;
+    --color-card-bg-dark: #7cabf9;
+    --color-body-bg-light: #ffffff;
+    --color-body-bg-dark: #121212;
+    --color-card-h2-light: #193767;
+    --color-card-h2-dark: #13151a;
+    --color-card-paragraph-light: #5e6b81;
+    --color-card-paragraph-dark: #13151a;
+    --color-primary-light: #3676e0;
+    --color-primary-dark: #7cabf9;
+    --color-button-bg-light: #3676e0;
+    --color-button-bg-dark: #7cabf9;
+    --color-button-text-light: #ffffff;
+    --color-button-text-dark: #13151a;
+    --color-list-bullet-light: #3676e0;
+    --color-list-bullet-dark: #13151a;
+    --color-main-header-light: #13151a;
+    --color-main-header-dark: #fbfbfc;
+}
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  @apply bg-body-bg-light dark:bg-body-bg-dark transition duration-300;
+}
