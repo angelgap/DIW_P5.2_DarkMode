@@ -25,10 +25,10 @@ const Home: React.FC = () => {
             />
           </div>
 
-          <Card sections={[{ title: "Bio", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }]} />
-          <Card sections={[{ title: "Personality", content: ["Hardworking", "Smart", "Expressive", "Thoughtful"] }]} />
-          <Card sections={[{ title: "Pain Points", content: ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet."] }]} />
-          <Card sections={[{ title: "Goals", content: ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet."] }]} />
+          <Card sections={[{ title: "Bio", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet mauris enim, vel condimentum risus eget rhoncus, vitae. Viverra pulvinar cras eu ac sed nunc dui. Risus pharetra, lacus interdum quam. Egestas aliquam dui at proin. Amet, pharetra, scelerisque molestie nibh porttitor sem malesuada cursus eget. Orci." }]} />
+          <Card sections={[{ title: "Personality", content: ["Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit.", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue"] }]} />
+          <Card sections={[{ title: "Pain Points", content:  ["Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit.", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue"] }]} />
+          <Card sections={[{ title: "Goals", content: ["Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit.", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue"] }]} />
         </div>
       </main>
     </div>
